@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>
+            PaginaCliente
+        </title>
+    </head>
+    <body style="background-color: beige">
+        <img src="img/Pastelero.png" align="left" width="100px"><h1 align="center">Bienvenido a Pasteleria "PANFELIZ"</h1>
+        <br>
+        <br>
+        <hr color="black">
+        <div align="left">
+        <h2 style="background-color: coral">Menu Pasteles</h2>    
+            <p>Pastel Chocolate(5 personas)...............$50</p>
+            <p>Pastel Vainilla(10 personas)...............$100</p>
+            <p>Pastel Tres leches(15 personas)............$150</p>
+            <p>Pastel Fresa(20 personas)..................$200</p>
+            <p>Pastel Coco(25 personas)...................$250</p>        
+        </div>
+        <hr color="black">
+        <div align="left">
+            <h2 style="background-color: coral">Menu Adornos Extra</h2>
+            <ul>
+                <li>Crema Batida
+                    <ul>
+                        <li>50 gramos..........$10</li>
+                        <li>75 gramos..........$15</li>
+                        <li>100 gramos.........$20</li>
+                    </ul>
+                </li>
+                <li>Chispas de chocolate
+                    <ul>
+                        <li>Chispas Rojas...........$10</li>
+                        <li>Chispas Azules..........$15</li>
+                        <li>Chispas Verdes..........$10</li>
+                    </ul>
+                </li>
+                <li>Fruta
+                    <ul>
+                        <li>Fresas...........$25</li>
+                        <li>Durazno..........$35</li>
+                        <li>Cerezas..........$20</li>
+                    </ul>
+                </li>
+            </ul>    
+        </div>
+        <hr color="black">        
+        <h2 style="background-color: coral">Realizar Pedido </h2>
+        <form>
+            <label for="">Nombre: </label><input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+            <label for="">Telefono: </label><input type="text" id="Telefono" name="Telefono" placeholder="Telefono"><br><br>
+            <label for="">Correo Electronico: </label><input type="text" id="Correo" name="Correo" placeholder="Correo"><br><br>
+            <label for="">Descripcion General: </label><input type="text" id="Descripcion" name="Descripcion" placeholder="Descripcion"><br>                        
+        </form>
+        <h2>Combinar Sabores......$35 Extra</h2>
+        <p>Sabores a escoger: </p>
+        <form action="">            
+            <label for="">Chocolate</label><input type="checkbox" name="choco" id="choco"><br>
+            <label for="">Vainilla</label><input type="checkbox" name="vainilla" id="vainilla"><br>
+            <label for="">Tres leches</label><input type="checkbox" name="tresl" id="tresl"><br>
+            <label for="">Fresa</label><input type="checkbox" name="fresa" id="fresa"><br>
+            <label for="">Coco</label><input type="checkbox" name="coco" id="coco"><br>
+        </form>
+        <h2>Combinar Adornos......$50 Extra</h2>
+        <p>Adornos a escoger: </p>
+        <p>-----Crema Batida: </p>
+        <form action="">            
+            <label for="">50 Gramos</label><input type="checkbox" name="g1" id="g1"><br>
+            <label for="">75 Gramos</label><input type="checkbox" name="g2" id="g2"><br>
+            <label for="">100 Gramos</label><input type="checkbox" name="g3" id="g3"><br>            
+        </form>
+        <p>-----Chispas de Chocolate: </p>
+        <form action="">            
+            <label for="">Chispas Rojas</label><input type="checkbox" name="crojo" id="crojo"><br>
+            <label for="">Chispas Azules</label><input type="checkbox" name="cazul" id="cazul"><br>
+            <label for="">Chispas Verdes</label><input type="checkbox" name="cverde" id="cverde"><br>            
+        </form>   
+        <p>-----Fruta: </p>
+        <form action="">            
+            <label for="">Fresas</label><input type="checkbox" name="fresa" id="fresa"><br>
+            <label for="">Duraznos</label><input type="checkbox" name="Durazno" id="Durazno"><br>
+            <label for="">Cerezas</label><input type="checkbox" name="Cerezas" id="Cerezas"><br>
+            <br>            
+            <button>Realizar Pedido</button>
+        </form>
+        <hr color="black"> 
+        <footer align="center">
+            <p>Direccion: Campestre Villas #420</p>
+            <p>Telefono: 771 214 2990</p>
+            <p>Horario: Lunes - Sabado de 9:00 - 16:30</p>
+        </footer>
+    </body>
+</html>
